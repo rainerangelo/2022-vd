@@ -62,6 +62,10 @@ img {
     -webkit-transform: rotate(20deg);
 }
 
+.hide {
+    visibility: hidden;
+}
+
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
     .image {
