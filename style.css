@@ -13,8 +13,13 @@ img {
   display: flex;
   flex-direction: column;
   margin-bottom: calc(25%);
-  margin-top: calc(25%);
   text-align: center;
+}
+
+.music-player {
+  align-items: center;
+  display: flex;
+  height: 100vh
 }
 
 .image {

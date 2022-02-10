@@ -3,7 +3,7 @@ const messages = document.getElementsByClassName("message");
 const images = document.getElementsByClassName("image");
 
 window.onscroll = function () {
-  for (let i = 1; i < messages.length; i++) {
+  for (let i = 0; i < messages.length; i++) {
     if (
       document.body.scrollTop > messages[i].offsetTop - window_height_half ||
       document.documentElement.scrollTop >
@@ -22,7 +22,7 @@ window.onscroll = function () {
     }
   }
 
-  for (let i = 1; i < images.length; i++) {
+  for (let i = 0; i < images.length; i++) {
     if (
       document.body.scrollTop > images[i].offsetTop - window_height_half ||
       document.documentElement.scrollTop >
